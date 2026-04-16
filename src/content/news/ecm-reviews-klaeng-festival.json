@@ -1,0 +1,18 @@
+{
+  "slug": "ecm-reviews-klaeng-festival",
+  "title": "ECM Reviews: KLAENG Festival",
+  "date": "December 30th",
+  "heroImage": "content/2-news/11-ecm-reviews-klaeng-festival/klaengfestivalshot.jpg",
+  "heroAlt": "ECM Reviews: KLAENG Festival",
+  "heroImages": [
+    {
+      "src": "content/2-news/11-ecm-reviews-klaeng-festival/klaengfestivalshot.jpg",
+      "alt": "ECM Reviews: KLAENG Festival"
+    }
+  ],
+  "bodyHtml": "<p>Thank you to Tyran Grillo of  <a href=\"https://ecmreviews.com/2018/12/30/live-report-klaeng-festival-2018/?fbclid=IwAR0zyX7aqSmX0VMSYq_lJEKZ9bEDW8ZwsBAKYhnf7ORHyxuubpbsNgB13uE/\"target=\"_blank\">ECM Reviews</a> for the great review of our set at  <a href=\"http://klaengfestival.de/\"target=\"_blank\">KLAENG Festival</a></p>",
+  "nextSlug": "sounding-seams",
+  "prevSlug": "danish-tour-2019",
+  "order": 11,
+  "excerpt": "Thank you to Tyran Grillo of  ECM Reviews for the great review of our set at …"
+}

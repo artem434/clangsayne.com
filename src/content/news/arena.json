@@ -1,0 +1,22 @@
+{
+  "slug": "arena",
+  "title": "Arena on RTE Radio 1",
+  "date": "Wednesday 3rd May",
+  "heroImage": "content/2-news/30-arena/arenastudio8-may17.jpg",
+  "heroAlt": "Arena on RTE Radio 1",
+  "heroImages": [
+    {
+      "src": "content/2-news/30-arena/arenastudio8-may17.jpg",
+      "alt": "Arena on RTE Radio 1"
+    },
+    {
+      "src": "content/2-news/30-arena/matt-scar-may17b.jpg",
+      "alt": "Arena on RTE Radio 1"
+    }
+  ],
+  "bodyHtml": "<p>We were in Studio 8 in RTE today playing material from The Round Soul of the World, and interviewing for Sean Rocks' Arena on Radio 1.<br />\nCheck it out here: <a href=\"http://www.rte.ie/radio/utils/radioplayer/rteradioweb.html#!rii=b9_10718907_1526_03-05-2017_\">RTE Radio 1 Arena</a></p>\n<p>We appear around 26:45.</p>",
+  "nextSlug": "album-release-tour",
+  "prevSlug": "kaleidoscope-night",
+  "order": 30,
+  "excerpt": "We were in Studio 8 in RTE today playing material from The Round Soul of the…"
+}

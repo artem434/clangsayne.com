@@ -1,0 +1,24 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: cms.shop
+  size: 1
+  alias: item
+  addAllPagesToCollections: true
+permalink: "/shop/{{ item.slug }}.html"
+eleventyComputed:
+  title: "{{ item.title }}"
+---
+<div class="page_left">
+  <figure>
+    <img src="/{{ item.heroImage | replace('../', '') }}" alt="{{ item.title }}">
+  </figure>
+</div>
+<div class="page_right">
+  <h1>{{ item.title }}</h1>
+  {{ item.bodyHtml | safe }}
+</div>
+<nav class="nextprev cf" role="navigation">
+  {% if item.prevSlug %}<a class="prev" href="/shop/{{ item.prevSlug }}.html">&larr; previous</a>{% endif %}
+  {% if item.nextSlug %}<a class="next" href="/shop/{{ item.nextSlug }}.html">next &rarr;</a>{% endif %}
+</nav>

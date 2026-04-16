@@ -1,0 +1,16 @@
+{
+  "name": "clangsayne-cms-migration",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Eleventy + Decap CMS migration for the Clang Sayne static site.",
+  "scripts": {
+    "build": "eleventy",
+    "dev": "eleventy --serve --watch",
+    "clean": "node scripts/clean.mjs",
+    "import:content": "node scripts/import-content.mjs",
+    "prebuild": "npm run clean && npm run import:content"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.5"
+  }
+}

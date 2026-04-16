@@ -1,0 +1,24 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: cms.works
+  size: 1
+  alias: item
+  addAllPagesToCollections: true
+permalink: "/works/{{ item.slug }}.html"
+eleventyComputed:
+  title: "{{ item.title }}"
+---
+<div class="page_left altleftmin">
+  <h1>{{ item.heroTitle or item.title }}</h1>
+</div>
+<div class="page_right workitem">
+  {{ item.bodyHtml | safe }}
+  {% if item.nextSlug or item.prevSlug %}
+  <nav class="nextprev cf" role="navigation">
+    {% if item.prevSlug %}<a class="prev" href="/works/{{ item.prevSlug }}.html">&larr; previous</a>{% endif %}
+    {% if item.nextSlug %}<a class="next" href="/works/{{ item.nextSlug }}.html">next &rarr;</a>{% endif %}
+  </nav>
+  {% endif %}
+</div>
+<div class="cf"></div>

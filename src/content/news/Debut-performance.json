@@ -1,0 +1,18 @@
+{
+  "slug": "Debut-performance",
+  "title": "Debut performance in Wexford's Fusion Cafe",
+  "date": "5th June 2016",
+  "heroImage": "content/2-news/40-Debut-performance/N6-FusionPoster.jpg",
+  "heroAlt": "Debut performance in Wexford's Fusion Cafe",
+  "heroImages": [
+    {
+      "src": "content/2-news/40-Debut-performance/N6-FusionPoster.jpg",
+      "alt": "Debut performance in Wexford's Fusion Cafe"
+    }
+  ],
+  "bodyHtml": "<h2>Very much looking forward to our first ever Clang Sayne gig in Wexford next month at <a href=\"https://www.facebook.com/cafefusion.wexford/\" rel=\"noopener noreferrer\" target=\"_blank\">Fusion Cafe</a>.</h2>\n<p>Support from the talented <a href=\"https://johnnyfox.bandcamp.com\" rel=\"noopener noreferrer\" target=\"_blank\">Johnny Fox</a>. Many thanks to <a href=\"http://www.samanthacapatti.com\" rel=\"noopener noreferrer\" target=\"_blank\">Sam Bezerra</a> for our poster.</p>",
+  "nextSlug": "Album-recorded",
+  "prevSlug": "Blackbird-video",
+  "order": 40,
+  "excerpt": "Very much looking forward to our first ever Clang Sayne gig in Wexford next…"
+}

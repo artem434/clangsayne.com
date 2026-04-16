@@ -1,0 +1,22 @@
+{
+  "slug": "so-long-summer",
+  "title": "EU Tour: KLAENG Festival, Cologne",
+  "date": "October 24th",
+  "heroImage": "content/2-news/13-so-long-summer/36913423_2117488718293081_4042562667993366528_o.jpg",
+  "heroAlt": "EU Tour: KLAENG Festival, Cologne",
+  "heroImages": [
+    {
+      "src": "content/2-news/13-so-long-summer/36913423_2117488718293081_4042562667993366528_o.jpg",
+      "alt": "EU Tour: KLAENG Festival, Cologne"
+    },
+    {
+      "src": "content/2-news/13-so-long-summer/wac-lowres.jpg",
+      "alt": "EU Tour: KLAENG Festival, Cologne"
+    }
+  ],
+  "bodyHtml": "<p>Excited to be invited to play at KLAENG festival in Cologne on November 23rd.<br />\nRun by the KLAENG Kollectiv: 7 Cologne-based musicians, KLAENG festival has been running at Statdgarten since 2015, and has made its name as one of the premiere contemporary jazz and experimental music festivals in Eurpoe. Running over three days, it brings international artists from all over the world. Line up for this year's program can be found  <a href=\"http://klaengfestival.de/\"target=\"_blank\">here</a></p>",
+  "nextSlug": "cercle-du-voyageur-bruxelles",
+  "prevSlug": "sounding-seams",
+  "order": 13,
+  "excerpt": "Excited to be invited to play at KLAENG festival in Cologne on November 23rd.…"
+}

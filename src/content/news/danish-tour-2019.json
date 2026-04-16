@@ -1,0 +1,18 @@
+{
+  "slug": "danish-tour-2019",
+  "title": "Danish Tour 2019",
+  "date": "10th January",
+  "heroImage": "content/2-news/10-danish-tour-2019/danishtourposter4.jpg",
+  "heroAlt": "Danish Tour 2019",
+  "heroImages": [
+    {
+      "src": "content/2-news/10-danish-tour-2019/danishtourposter4.jpg",
+      "alt": "Danish Tour 2019"
+    }
+  ],
+  "bodyHtml": "<p>We'll be on our Danish Tour from February 25th - March 2nd.</p>\n<p>Monday 25th we play  <a href=\"http://5e.dk/\"target=\"_blank\">5E</a>  - a hub for live improvised and experimental music, as part of Carolyn's month-long residency.</p>\n<p>Thursday 28th we're at  <a href=\"https://www.peryton.dk/sounds//\"target=\"_blank\">'Lutter Ore' </a> ; a new concert series at Peryton. Four established musicians from Copenhagen's experimental music scene present a wide and varied program focusing on free improvisation and contemporary compositional music. </p>\n<p>Friday 1st March takes us to <a href=\"https://www.tojhuset.dk/\"target=\"_blank\">Tojhuset </a>  - Fredericia's premiere live music venue for jazz &amp; contemporary music - for their 'Friday Night Jam' </p>\n<p>Further details to follow.</p>",
+  "nextSlug": "ecm-reviews-klaeng-festival",
+  "prevSlug": "so-long-jude",
+  "order": 10,
+  "excerpt": "We'll be on our Danish Tour from February 25th - March 2nd. Monday 25th we play…"
+}

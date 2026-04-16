@@ -1,0 +1,18 @@
+{
+  "slug": "hello-again-world",
+  "title": "Hello Again, World",
+  "date": "1st February 2022",
+  "heroImage": "content/2-news/8-hello-again-world/news3.jpg",
+  "heroAlt": "Hello Again, World",
+  "heroImages": [
+    {
+      "src": "content/2-news/8-hello-again-world/news3.jpg",
+      "alt": "Hello Again, World"
+    }
+  ],
+  "bodyHtml": "<p>Clang Sayne has been having a Big Sleep.<br />\nThe pandemic and pregnancy aligned perfectly here in Wexford: my daughter is now 14 months old, and the world seems to be returning from the brink of pandemicdom. Time to start getting my Clang Sayne ducks in line again.<br />\nWhat better day to do so than Feb 1st: officially the first day of Spring in Ireland. A tide of 'by the wind sailor' jellies washed in on the beach this morning, plus a lot of very pink carageen moss – nice to see some colours again after the long winter. Here's to imminent new beginnings!</p>",
+  "nextSlug": "so-long-jude",
+  "prevSlug": "sounding-seams-iii",
+  "order": 8,
+  "excerpt": "Clang Sayne has been having a Big Sleep. The pandemic and pregnancy aligned…"
+}

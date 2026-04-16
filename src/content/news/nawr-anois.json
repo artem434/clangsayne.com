@@ -1,0 +1,18 @@
+{
+  "slug": "nawr-anois",
+  "title": "NAWR Anois Tuesday 24th July",
+  "date": "Monday 9th July",
+  "heroImage": "content/2-news/16-nawr-anois/clang2_0nawr.jpg",
+  "heroAlt": "NAWR Anois Tuesday 24th July",
+  "heroImages": [
+    {
+      "src": "content/2-news/16-nawr-anois/clang2_0nawr.jpg",
+      "alt": "NAWR Anois Tuesday 24th July"
+    }
+  ],
+  "bodyHtml": "<p>Our UK tour kicks off at 'NAWR ANOIS!' at the BBC Hall in Swansea, Wales on Tuesday the 24th of July.<br />\nThis is the last concert in a series of 7, showcasing experimental music from Ireland and Wales. We're sharing the bill with Aonghus McEvoy  - Dublin based artists producing ululations via guitars, voices, tapes and detritus.<br />\n<a href=\"https://aonghusmcevoy.bandcamp.com/\">https://aonghusmcevoy.bandcamp.com/</a></p>\n<p>Tickets here:<br />\n<a href=\"https://www.eventbrite.com/e/nawr-anois-clang-sayne-aonghus-mcevoy-tickets-45839008709\">https://www.eventbrite.com/e/nawr-anois-clang-sayne-aonghus-mcevoy-tickets-45839008709</a></p>",
+  "nextSlug": "kicking-back-in-stroud",
+  "prevSlug": "summer-tour-ireland",
+  "order": 16,
+  "excerpt": "Our UK tour kicks off at 'NAWR ANOIS!' at the BBC Hall in Swansea, Wales on…"
+}

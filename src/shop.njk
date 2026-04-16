@@ -1,0 +1,18 @@
+---
+layout: layouts/base.njk
+title: Shop
+permalink: "/shop.html"
+---
+<ul class="records cf">
+{% for item in cms.shop %}
+  <li>
+    <h2>{{ item.title }}</h2>
+    {{ item.bodyHtml | safe }}
+  </li>
+  <li class="player">
+    <a href="/shop/{{ item.slug }}.html">
+      <img src="/{{ item.heroImage | replace('../', '') }}" alt="{{ item.title }}">
+    </a>
+  </li>
+{% endfor %}
+</ul>

@@ -1,0 +1,18 @@
+{
+  "slug": "https-ergodos-ie-the-santa-rita-concerts",
+  "title": "Playing at the Sofa Sessions",
+  "date": "August 10th",
+  "heroImage": "content/2-news/26-https-ergodos-ie-the-santa-rita-concerts/sofasessions.jpg",
+  "heroAlt": "Playing at the Sofa Sessions",
+  "heroImages": [
+    {
+      "src": "content/2-news/26-https-ergodos-ie-the-santa-rita-concerts/sofasessions.jpg",
+      "alt": "Playing at the Sofa Sessions"
+    }
+  ],
+  "bodyHtml": "<p>Another date for our Autumn tour (full deets soon) at  Cormac Larkin's Sofa Sessions in Kilkenny!</p>",
+  "nextSlug": "fractured-air-interview",
+  "prevSlug": "hard-working-class-heroes",
+  "order": 26,
+  "excerpt": "Another date for our Autumn tour (full deets soon) at  Cormac Larkin's Sofa…"
+}

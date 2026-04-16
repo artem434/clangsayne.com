@@ -1,0 +1,18 @@
+{
+  "slug": "summer-tour",
+  "title": "Summer Tour Dates UK",
+  "date": "Tuesday 5th June 2018",
+  "heroImage": "content/2-news/19-summer-tour/solarflaresta-475432710.jpg",
+  "heroAlt": "Summer Tour Dates UK",
+  "heroImages": [
+    {
+      "src": "content/2-news/19-summer-tour/solarflaresta-475432710.jpg",
+      "alt": "Summer Tour Dates UK"
+    }
+  ],
+  "bodyHtml": "<p>We'll be playing in Swansea, Bristol and the Cotswolds in July, and various places in Ireland in August. Check our the dates page for details.</p>",
+  "nextSlug": "winter-tour",
+  "prevSlug": "uk-mini-tour",
+  "order": 19,
+  "excerpt": "We'll be playing in Swansea, Bristol and the Cotswolds in July, and various…"
+}

@@ -1,0 +1,168 @@
+@charset "UTF-8";
+/* CSS Document */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3099772
+ * 
+ * © 2015 MyFonts Inc
+*/
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+
+body {
+	font-size: 62.5%;
+		  line-height: 1.5em;
+  color: #000;
+  	  background-color: #fff;
+	font-family: 'Work Sans', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-style: normal; 
+}
+
+::-moz-selection { /* Code for Firefox */ background: #f2f2f2;}
+::selection {   background: #f2f2f2;}
+
+p {
+	font-size: 1.5em;
+	  line-height: 1.4em;
+	margin: 0;}
+
+
+
+/* Links
+-------------------------------------------------- */
+a {
+  color: #000;
+  text-decoration: none;
+  transition: color .3s;
+}
+a:hover {
+    color: #000;
+}
+
+
+
+
+
+
+p.news_index_date {
+	  margin-top: 0.5em;
+	  margin-bottom: 0em;
+	  color: #0CF;
+	}
+	p.news_index_date a {
+text-decoration:none;	
+border-bottom: none;}
+
+p.news_excerpt a {
+text-decoration:none;	
+  border: 0 !important;}
+
+
+/* Headings
+-------------------------------------------------- */
+h1, h2, h3, h4	{ font-family: 'Work Sans', Helvetica, Arial, sans-serif; 	max-width: 40em; }
+
+h1 {
+  font-size: 3em;
+  line-height: 1em;
+  font-weight: 300;
+  margin-bottom: 0.5em;
+}
+@media screen and (min-width: 0em) { h1  {
+	  font-size: 3em;
+  line-height: 1em;}}
+@media screen and (min-width: 40em) { h1  {
+	  font-size: 3em;
+  line-height: 1.3em;}}
+
+
+h2 {
+  font-size: 1.8em;
+    line-height: 1.4em;
+  font-weight: 300;
+  margin-top: 0.3em;
+  margin-bottom: 0.7em;
+  
+}
+@media screen and (min-width: 0em) { h2  {
+	  font-size: 1.8em;
+  line-height: 1.4em;}}
+@media screen and (min-width: 40em) { h2  {
+	  font-size: 1.8em;
+  line-height: 1.4em;}}
+
+h3 {
+ font-size: 1.5em;
+	  line-height: 1.4em;
+  font-weight: 500;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+	.index_h3 {
+  font-size: 1.5em;
+  line-height: 1.4em;
+  font-weight: 300;
+  margin-top: .5em;
+  margin-bottom: 0em;
+}
+h4 {
+   font-size: 1.5em;
+  line-height: 1.4em;
+    text-transform: uppercase;
+	  letter-spacing: 0.05em;
+	  font-weight: 300;
+  margin-top: .5em;
+  margin-bottom: .5em;
+    color: #000;
+}
+h1 a, h2 a, h3 a, h4 a {
+  color: inherit;
+  border: 0 !important;
+}
+
+.records h1, .records h2, .records h3, .records p {
+  margin-top: 0em;
+  padding-right: 2em;  }
+
+
+/* -------------------------------------------------- */
+
+.logo { 
+  font-family: 'Work Sans', Helvetica, Arial, sans-serif;
+}
+
+
+
+/* Project meta
+-------------------------------------------------- */
+.meta {
+  margin-bottom: 1.5em;
+}
+.meta li {
+  float: left;
+  list-style: none;
+  margin-right: 2em;
+  color: #000;
+
+}
+.meta li b {
+  font-weight: 300;
+  color: #000;
+  padding-right: .25em;
+}
+
+
+
+.nextprev {
+	    font-size: 1.5em;
+}
+.nextprev a {
+	color: #999;
+}
+.nextprev a:hover {
+	color: #000;
+	transition: 0.5s;
+}
+

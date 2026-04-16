@@ -1,0 +1,22 @@
+---
+layout: layouts/base.njk
+title: News
+permalink: "/news.html"
+---
+{% if cms.pages.newsIndex.bodyHtml %}
+  {{ cms.pages.newsIndex.bodyHtml | safe }}
+{% endif %}
+
+<ul class="teaser cf">
+{% for item in cms.news %}
+  <li>
+    <a href="/news/{{ item.slug }}.html">
+      <img src="/{{ item.heroImage | replace('../', '') }}" alt="{{ item.heroAlt }}">
+    </a>
+    <p class="news_index_date"><a href="/news/{{ item.slug }}.html">{{ item.date }}</a></p>
+    <h2><a href="/news/{{ item.slug }}.html">{{ item.title }}</a></h2>
+    <p class="news_excerpt"><a href="/news/{{ item.slug }}.html">{{ item.excerpt }}</a></p>
+    <div class="space_below_teaser"></div>
+  </li>
+{% endfor %}
+</ul>

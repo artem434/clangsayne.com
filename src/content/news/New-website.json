@@ -1,0 +1,18 @@
+{
+  "slug": "New-website",
+  "title": "A New Website",
+  "date": "23rd April 2016",
+  "heroImage": "content/2-news/42-New-website/website.jpg",
+  "heroAlt": "A New Website",
+  "heroImages": [
+    {
+      "src": "content/2-news/42-New-website/website.jpg",
+      "alt": "A New Website"
+    }
+  ],
+  "bodyHtml": "<p>Big thanks to Matthew Olczak for our new Clang Sayne website! Have a look around!</p>",
+  "nextSlug": "",
+  "prevSlug": "Album-recorded",
+  "order": 42,
+  "excerpt": "Big thanks to Matthew Olczak for our new Clang Sayne website! Have a look…"
+}

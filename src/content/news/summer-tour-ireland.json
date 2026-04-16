@@ -1,0 +1,18 @@
+{
+  "slug": "summer-tour-ireland",
+  "title": "Summer Tour Ireland",
+  "date": "July 31st",
+  "heroImage": "content/2-news/15-summer-tour-ireland/wac-lowres.jpg",
+  "heroAlt": "Summer Tour Ireland",
+  "heroImages": [
+    {
+      "src": "content/2-news/15-summer-tour-ireland/wac-lowres.jpg",
+      "alt": "Summer Tour Ireland"
+    }
+  ],
+  "bodyHtml": "<p>6 dates along the south coast from aug 8th-13th. Details on Dates page</p>",
+  "nextSlug": "nawr-anois",
+  "prevSlug": "cercle-du-voyageur-bruxelles",
+  "order": 15,
+  "excerpt": "6 dates along the south coast from aug 8th-13th. Details on Dates page"
+}

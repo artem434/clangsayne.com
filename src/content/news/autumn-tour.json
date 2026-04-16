@@ -1,0 +1,18 @@
+{
+  "slug": "autumn-tour",
+  "title": "Autumn Tour !",
+  "date": "Thursday 14th September",
+  "heroImage": "content/2-news/21-autumn-tour/cs_autumntoura6.jpg",
+  "heroAlt": "Autumn Tour !",
+  "heroImages": [
+    {
+      "src": "content/2-news/21-autumn-tour/cs_autumntoura6.jpg",
+      "alt": "Autumn Tour !"
+    }
+  ],
+  "bodyHtml": "<p>We're off on tour! YAAAAAY! We'll be hightailing it up and down the east coast from Belfast to Waterford, taking in a couple of hot meals and a visual art exhibition along the way...</p>\n<p>We kick off by opening contemporary label, Ergodos' new season of Santa Rita Series concerts in Dublin on September 27th, followed by Irish Times Jazz critic, Cormac Larkin's weekly jazz night, Sofa Sessions in Kilkenny (28th), and then back to Dublin again for FMC's annual rock/pop showcase, Hard Working Class Heroes (29th). I (Laura) will also perform a solo concert at Alice's Restaurant, Kildare on Saturday 30th September.</p>\n<p>Next stop is The Black Box, Belfast for Moving On Music's Jam Jam Series on Oct 5th - a monthly event focusing on experimental artists, and featuring other such luminaries as Jenny Hval and Jennifer Walshe.</p>\n<p>If a quality meal followed by an intimate gig sounds like a good way to spend a weekend evening you have your pick of either The Happy Pear in Wicklow (Fri 6th), or The Parlour Tea Rooms in Waterford (Sat 7th).</p>\n<p>We wrap it up with a very special event in Wexford Arts Centre on Sunday 8th October, playing alongside an exhibition by renowned visual artist, David Begley featuring prints he made in response to the seven songs on The Round Soul of the World.</p>\n<p>Details  &amp; Tickets <a href=\"http://www.clangsayne.com/dates/\"target=\"_blank\">here</a></p>",
+  "nextSlug": "artwork-by-david-begley",
+  "prevSlug": "winter-tour",
+  "order": 21,
+  "excerpt": "We're off on tour! YAAAAAY! We'll be hightailing it up and down the east coast…"
+}

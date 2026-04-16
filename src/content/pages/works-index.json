@@ -1,0 +1,4 @@
+{
+  "title": "Works",
+  "bodyHtml": "<li>\n     <a href=\"works/Sounding-Seams.html\">\n      <img src=\"content/3-works/1-Sounding-Seams/1-Sounding-Seams-cover.jpg\" alt=\"Sounding Seams\" >\n    </a>\n    \n  </li>\n  \n    \n  <li>\n     <a href=\"works/Round-Soul.html\">\n      <img src=\"content/3-works/2-Round-Soul/1-roundsoulcover.jpg\" alt=\"The Round Soul of the World\" >\n    </a>\n    \n  </li>\n  \n    \n  <li>\n     <a href=\"works/Winterlands.html\">\n      <img src=\"content/3-works/3-Winterlands/1-Winterlands-cover.jpg\" alt=\"Winterlands\" >\n    </a>\n    \n  </li>"
+}

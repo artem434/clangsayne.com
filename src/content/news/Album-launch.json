@@ -1,0 +1,18 @@
+{
+  "slug": "Album-launch",
+  "title": "Round Soul of the World album launch",
+  "date": "10th November 2016",
+  "heroImage": "content/2-news/35-Album-launch/RoundSoulCover.jpg",
+  "heroAlt": "Round Soul of the World album launch",
+  "heroImages": [
+    {
+      "src": "content/2-news/35-Album-launch/RoundSoulCover.jpg",
+      "alt": "Round Soul of the World album launch"
+    }
+  ],
+  "bodyHtml": "<h2>Thrilled to finally announce the album launch for The Round Soul of the World.</h2>\n<p>The album was recorded live at Arad Studios in Dublin by Les Keye over the past four years and features seven new compositions. Thanks the Music Network and Arts Council Ireland for their support under the Music Network Recording Scheme. <br/><br />\nThe Irish release takes place on Thursday 23rd of March 2017. See the <a href=\"http://www.clangsayne.com/dates\">dates page</a> for nationwide tour plans.</p>\n<p>We video-recorded a live performance of the single from the album, 'Blackbird' with Myles O Reilly &amp; Les Keye which you can <a href=\"https://www.youtube.com/watch?v=rRv4dhajjW8\" rel=\"noopener noreferrer\" target=\"_blank\">see here.</a></p>",
+  "nextSlug": "Album-tour",
+  "prevSlug": "album-launch-tour",
+  "order": 35,
+  "excerpt": "Thrilled to finally announce the album launch for The Round Soul of the World.…"
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "winter-tour",
+  "title": "Winter Tour!",
+  "date": "Monday 27th of November",
+  "heroImage": "content/2-news/20-winter-tour/cs_winter17tourposter.jpg",
+  "heroAlt": "Winter Tour!",
+  "heroImages": [
+    {
+      "src": "content/2-news/20-winter-tour/cs_winter17tourposter.jpg",
+      "alt": "Winter Tour!"
+    }
+  ],
+  "bodyHtml": "<p>Thrilled to announce our upcoming Winter Tour. We'll do three dates in Galway, Dublin and Cork on the 16th, 17th and 18th respectively.<br />\nI'm particularly excited to play alongside the wonderful<br />\n<a href=\"https://annamieke.com/\"target=\"_blank\">Anna Mieke Bishop</a> for our Cork gig - if you haven't heard her music do check it out - she's amazing!</p>",
+  "nextSlug": "autumn-tour",
+  "prevSlug": "summer-tour",
+  "order": 20,
+  "excerpt": "Thrilled to announce our upcoming Winter Tour. We'll do three dates in Galway,…"
+}

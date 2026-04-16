@@ -1,0 +1,35 @@
+<header class="header cf" role="banner">
+  <a class="logo" href="/index.html">
+    <h1{% if title == "Home" %} class="home_logo_h1"{% endif %}>Clang Sayne</h1>
+  </a>
+
+  <div class="social">
+    <ul>
+      {% for item in site.socials %}
+      <li>
+        <a href="{{ item.href }}"{% if item.external %} target="_blank"{% endif %}>
+          <img src="/assets/images/social/{{ item.icon }}" width="50" height="50" alt="{{ item.alt }}">
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <nav role="navigation">
+    <ul class="menu full_menu cf">
+      {% for item in site.nav %}
+      <li>
+        <a href="{{ item.href }}"{% if page.url == item.href %} class="active"{% endif %}>{{ item.label }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+
+    <div id="burger">
+      <div class="burgerline"></div><div class="burgerline"></div><div class="burgerline"></div>
+    </div>
+  </nav>
+
+  <script>
+    $("#burger").click(function() { $(".menu").toggleClass("menuon"); });
+  </script>
+</header>

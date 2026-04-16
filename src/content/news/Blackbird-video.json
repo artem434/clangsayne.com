@@ -1,0 +1,18 @@
+{
+  "slug": "Blackbird-video",
+  "title": "Blackbird Video",
+  "date": "6th July 2016",
+  "heroImage": "content/2-news/39-Blackbird-video/N5-BlackbirdVidpic.jpg",
+  "heroAlt": "Blackbird Video",
+  "heroImages": [
+    {
+      "src": "content/2-news/39-Blackbird-video/N5-BlackbirdVidpic.jpg",
+      "alt": "Blackbird Video"
+    }
+  ],
+  "bodyHtml": "<p>Many thanks to Myles O Reilly and Les Keye for our new live video of 'Blackbird' which <a href=\"https://www.youtube.com/watch?v=rRv4dhajjW8\" rel=\"noopener noreferrer\" target=\"_blank\">you can watch here</a>. Filmed at the Elbow Room in Stoneybatter.</p>",
+  "nextSlug": "Debut-performance",
+  "prevSlug": "Moon-video",
+  "order": 39,
+  "excerpt": "Many thanks to Myles O Reilly and Les Keye for our new live video of…"
+}

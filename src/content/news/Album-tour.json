@@ -1,0 +1,18 @@
+{
+  "slug": "Album-tour",
+  "title": "November Tour",
+  "date": "2nd October 2016",
+  "heroImage": "content/2-news/36-Album-tour/N2-NovTourA3poster-Gold.jpg",
+  "heroAlt": "November Tour",
+  "heroImages": [
+    {
+      "src": "content/2-news/36-Album-tour/N2-NovTourA3poster-Gold.jpg",
+      "alt": "November Tour"
+    }
+  ],
+  "bodyHtml": "<h2>We'll be on a wee mini tour in early November, passing through Wexford, Dublin and Galway. Check out our <a href=\"http://www.clangsayne.com/dates\">dates page</a> for details.</h2>",
+  "nextSlug": "Big-box",
+  "prevSlug": "Album-launch",
+  "order": 36,
+  "excerpt": "We'll be on a wee mini tour in early November, passing through Wexford, Dublin…"
+}

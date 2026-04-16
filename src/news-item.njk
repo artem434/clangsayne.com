@@ -1,0 +1,31 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: cms.news
+  size: 1
+  alias: item
+  addAllPagesToCollections: true
+permalink: "/news/{{ item.slug }}.html"
+eleventyComputed:
+  title: "{{ item.title }}"
+---
+<div class="page_left">
+  {% for image in item.heroImages %}
+  <figure>
+    <img src="/{{ image.src | replace('../', '') }}" alt="{{ image.alt }}">
+  </figure>
+  {% endfor %}
+</div>
+
+<div class="page_right">
+  <p>{{ item.date }}</p>
+  <h1>{{ item.title }}</h1>
+  {{ item.bodyHtml | safe }}
+  {% if item.nextSlug or item.prevSlug %}
+  <nav class="nextprev cf" role="navigation">
+    {% if item.prevSlug %}<a class="prev" href="/news/{{ item.prevSlug }}.html">&larr; Previous</a>{% endif %}
+    {% if item.nextSlug %}<a class="next" href="/news/{{ item.nextSlug }}.html">Next &rarr;</a>{% endif %}
+  </nav>
+  {% endif %}
+</div>
+<div class="cf"></div>

@@ -1,0 +1,22 @@
+{
+  "slug": "kaleidoscope-night",
+  "title": "Kaleidoscope Night",
+  "date": "2nd May",
+  "heroImage": "content/2-news/29-kaleidoscope-night/screen-shot-2017-07-10-at-5.02.01-pm.png",
+  "heroAlt": "Kaleidoscope Night",
+  "heroImages": [
+    {
+      "src": "content/2-news/29-kaleidoscope-night/screen-shot-2017-07-10-at-5.02.01-pm.png",
+      "alt": "Kaleidoscope Night"
+    },
+    {
+      "src": "content/2-news/29-kaleidoscope-night/kaleidoscopemay17.jpg",
+      "alt": "Kaleidoscope Night"
+    }
+  ],
+  "bodyHtml": "<p>If you are passing anywhere close to Bello Bar in Rathmines tomorrow evening pop in to catch us at Kaleidascope Night. We've been threatening to play at Dublin's favourite genre-bending bash for the last few years now, and finally it's happening!<br />\nWe're in very good company too - you'll also get to hear Richard Strauss' Metamorphosen, Mozart's Duo No. 1 for violin and viola K.423, Byrd's Ave Verum Corpus, Éna Brennan's rupture ii, and a world premiere by Alma Kelliher.</p>",
+  "nextSlug": "arena",
+  "prevSlug": "inish-festival-island-conversations",
+  "order": 29,
+  "excerpt": "If you are passing anywhere close to Bello Bar in Rathmines tomorrow evening…"
+}

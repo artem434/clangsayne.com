@@ -1,0 +1,18 @@
+{
+  "slug": "Album-recorded",
+  "title": "Album Recorded!",
+  "date": "15th May 2016",
+  "heroImage": "content/2-news/41-Album-recorded/N7-Album%20recorded.jpg",
+  "heroAlt": "Album Recorded!",
+  "heroImages": [
+    {
+      "src": "content/2-news/41-Album-recorded/N7-Album%20recorded.jpg",
+      "alt": "Album Recorded!"
+    }
+  ],
+  "bodyHtml": "<p>After many unforeseen life detours our album, The Round Soul of the World is finally recorded. So great to have it done and dusted at last. We hope it will have been worth the wait! Now for the last leg as we embark on mastering and manufacturing. This picture was taken after our first recording session (in November 2013!), when Arad recording Studio was still housed in the soon-to-be-demolished Moxie Studios on Baggot St in Dublin.</p>",
+  "nextSlug": "New-website",
+  "prevSlug": "Debut-performance",
+  "order": 41,
+  "excerpt": "After many unforeseen life detours our album, The Round Soul of the World is…"
+}

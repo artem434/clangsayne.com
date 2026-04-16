@@ -1,0 +1,14 @@
+---
+layout: layouts/base.njk
+title: Works
+permalink: "/works.html"
+---
+<ul class="works cf">
+{% for item in cms.works %}
+  <li>
+    <a href="/works/{{ item.slug }}.html">
+      <img src="/{{ item.heroImage | replace('../', '') }}" alt="{{ item.title }}">
+    </a>
+  </li>
+{% endfor %}
+</ul>

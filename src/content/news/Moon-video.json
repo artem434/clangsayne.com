@@ -1,0 +1,18 @@
+{
+  "slug": "Moon-video",
+  "title": "Moon Video",
+  "date": "4th September 2016",
+  "heroImage": "content/2-news/38-Moon-video/N4-MoonVidPic.jpg",
+  "heroAlt": "Moon Video",
+  "heroImages": [
+    {
+      "src": "content/2-news/38-Moon-video/N4-MoonVidPic.jpg",
+      "alt": "Moon Video"
+    }
+  ],
+  "bodyHtml": "<h2>Many thanks to Simon Arazi for his beautiful video of 'Curse you, Mocking Moon' from our forthcoming album, 'The Round Soul of the World'.</h2>\n<p>The video goes live in February 2017. Keep an eye on our <a href=\"https://www.facebook.com/clangsayne\" rel=\"noopener noreferrer\" target=\"_blank\">Facebook</a> and <a href=\"https://www.youtube.com/channel/UCTHujsPdgBEYNy-F0aUzfFg\" rel=\"noopener noreferrer\" target=\"_blank\">Youtube</a> pages!</p>",
+  "nextSlug": "Blackbird-video",
+  "prevSlug": "Big-box",
+  "order": 38,
+  "excerpt": "Many thanks to Simon Arazi for his beautiful video of 'Curse you, Mocking Moon'…"
+}

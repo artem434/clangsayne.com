@@ -1,0 +1,18 @@
+{
+  "slug": "album-launch-tour",
+  "title": "Album Launch Tour",
+  "date": "February 23rd 2017",
+  "heroImage": "content/2-news/34-album-launch-tour/clangsayne_marchtour_a3.jpg",
+  "heroAlt": "Album Launch Tour",
+  "heroImages": [
+    {
+      "src": "content/2-news/34-album-launch-tour/clangsayne_marchtour_a3.jpg",
+      "alt": "Album Launch Tour"
+    }
+  ],
+  "bodyHtml": "<p>Hear us play The Round Soul of the World LIVE in Wexford, Dublin, Galway and Cork. Details <a href=\"http://www.clangsayne.com/dates\" target=\"_blank\">here</a><br />\n<br/> A big, big thanks to <a href=\"http://www.craigcarry.net/\" target=\"_blank\">Craig Carry</a>  for our very beautiful screen printed tour poster. A limited number of prints will be available on the tour, and from our  <a href=\"http://www.clangsayne.com/shop\" target=\"_blank\">shop page</a></p>",
+  "nextSlug": "Album-launch",
+  "prevSlug": "curse-you-mocking-moon-video-release",
+  "order": 34,
+  "excerpt": "Hear us play The Round Soul of the World LIVE in Wexford, Dublin, Galway and…"
+}

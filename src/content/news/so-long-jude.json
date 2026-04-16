@@ -1,0 +1,18 @@
+{
+  "slug": "so-long-jude",
+  "title": "So Long Jude!",
+  "date": "August 2019",
+  "heroImage": "content/2-news/9-so-long-jude/news4.jpg",
+  "heroAlt": "So Long Jude!",
+  "heroImages": [
+    {
+      "src": "content/2-news/9-so-long-jude/news4.jpg",
+      "alt": "So Long Jude!"
+    }
+  ],
+  "bodyHtml": "<p>Our long-standing Clang Sayne vocalist &amp; cellist, Judith Ring is no longer gonna be playing with us. We'll miss her very much. I first began making music with Jude in Berlin in 2003. We dipped in and out of things for the next 10 years or so, and she then joined Clang Sayne in 2010 when I returned to Ireland. It's been a wonderful decade of working together, but as ever in life, the only constant is change: here's to new chapters. Wishing you the best Jude, and thanks for all the music!</p>\n<p>The photo by the way features Jude having just stepped on a weaver fish in Co Cork on our way home from a gig: we had to go to the lifeguard station to have it treated (tip: should you ever stand on a weaver fish, put your foot in a basin of increasingly hotter water; the temperature eventually kills off the poison). Why is the lifeguard in the picture instead of Matthew? I'm not sure...</p>",
+  "nextSlug": "danish-tour-2019",
+  "prevSlug": "hello-again-world",
+  "order": 9,
+  "excerpt": "Our long-standing Clang Sayne vocalist & cellist, Judith Ring is no longer…"
+}

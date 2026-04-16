@@ -1,0 +1,18 @@
+{
+  "slug": "fractured-air-interview",
+  "title": "Fractured Air Interview",
+  "date": "July 30th",
+  "heroImage": "content/2-news/27-fractured-air-interview/images.duckduckgo.com.jpg",
+  "heroAlt": "Fractured Air Interview",
+  "heroImages": [
+    {
+      "src": "content/2-news/27-fractured-air-interview/images.duckduckgo.com.jpg",
+      "alt": "Fractured Air Interview"
+    }
+  ],
+  "bodyHtml": "<p>A big thanks to Fractured Air for their interview with us. You can read it here:<br />\n<a href=\"https://fracturedair.com/2017/08/08/central-and-remote-clang-sayne/\">https://fracturedair.com/2017/08/08/central-and-remote-clang-sayne/</a></p>",
+  "nextSlug": "inish-festival-island-conversations",
+  "prevSlug": "https-ergodos-ie-the-santa-rita-concerts",
+  "order": 27,
+  "excerpt": "A big thanks to Fractured Air for their interview with us. You can read it…"
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "Big-box",
+  "title": "A big box in the post!",
+  "date": "29th September 2016",
+  "heroImage": "content/2-news/37-Big-box/N3-AlbumsArrive.jpg",
+  "heroAlt": "A big box in the post!",
+  "heroImages": [
+    {
+      "src": "content/2-news/37-Big-box/N3-AlbumsArrive.jpg",
+      "alt": "A big box in the post!"
+    }
+  ],
+  "bodyHtml": "<h2>So today the cds and vinyl for our new album, The Round Should of the World arrived. Yaaay!</h2>",
+  "nextSlug": "Moon-video",
+  "prevSlug": "Album-tour",
+  "order": 37,
+  "excerpt": "So today the cds and vinyl for our new album, The Round Should of the World…"
+}
