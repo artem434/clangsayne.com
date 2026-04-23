@@ -10,9 +10,12 @@
     "clean": "node scripts/clean.mjs",
     "import:content": "node scripts/import-content.mjs",
     "media:index": "node scripts/media-uploads-index.mjs",
-    "rebuild:from-legacy-html": "npm run import:content && npm run media:index && npm run build"
+    "rebuild:from-legacy-html": "npm run import:content && npm run media:index && npm run build",
+    "deploy": "npm run build && wrangler deploy",
+    "preview": "npm run build && wrangler dev"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.5"
+    "@11ty/eleventy": "^3.1.5",
+    "wrangler": "^4.84.1"
   }
 }
