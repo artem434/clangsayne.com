@@ -13,8 +13,6 @@ display_url: http://localhost:8080
 # — refresh with: npm run media:index (also runs after import:content in prebuild).
 media_folder: "content/uploads"
 public_folder: "/content/uploads"
-media_library:
-  name: uploads
 
 collections:
   - name: "pages"
