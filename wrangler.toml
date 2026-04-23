@@ -1,0 +1,4 @@
+# Cloudflare Workers (static assets from Eleventy `_site/`).
+# Deploy command in dashboard: npx wrangler deploy --assets ./_site
+name = "myproject"
+compatibility_date = "2026-04-23"
