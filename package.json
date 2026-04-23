@@ -5,7 +5,7 @@
   "description": "Eleventy + Decap CMS migration for the Clang Sayne static site.",
   "scripts": {
     "prebuild": "npm run clean && npm run media:index",
-    "build": "eleventy",
+    "build": "eleventy && node scripts/sync-admin-config.mjs",
     "dev": "eleventy --serve --watch",
     "clean": "node scripts/clean.mjs",
     "import:content": "node scripts/import-content.mjs",
