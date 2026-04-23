@@ -1,3 +1,6 @@
+# Merged at build time into admin/config.yml (see scripts/sync-admin-config.mjs).
+# Only backend, auth, branding, and site URLs differ from local; collections stay in config.yml.
+
 backend:
   name: git-gateway
   repo: artem434/clangsayne.com

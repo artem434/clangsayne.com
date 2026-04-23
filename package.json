@@ -14,6 +14,7 @@
     "rebuild:from-legacy-html": "npm run import:content && npm run media:index && npm run build"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.5"
+    "@11ty/eleventy": "^3.1.5",
+    "js-yaml": "^4.1.0"
   }
 }
