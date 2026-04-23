@@ -5,8 +5,8 @@ This repo now uses Eleventy for rendering and Decap CMS for content editing.
 ## Build & deploy
 
 - **Publish directory:** `_site/` (run `npm run build` after `npm install`).
-- **`npm run build`** runs `prebuild` (clean `_site`, refresh `content/uploads/_idx__*` symlinks via `media:index`) then Eleventy. It does **not** re-run `import:content`, so committed JSON under `src/content/` is the source of truth for deploy.
-- **Admin config in build output:** `npm run build` copies `admin/config.yml` into `_site/admin/config.yml` for local builds. For production deploys, run `ADMIN_CONFIG=production npm run build` so `_site/admin/config.yml` uses `admin/config.production.yml`.
+- **`npm run build`** runs `prebuild` (clean `_site`, refresh `content/uploads/_idx__*` symlinks via `media:index`) then Eleventy in **production mode**. It does **not** re-run `import:content`, so committed JSON under `src/content/` is the source of truth for deploy.
+- **Local build variant:** `npm run build:local` keeps the local admin config in `_site/admin/config.yml` for offline preview.
 - **Re-seed JSON from legacy HTML** (root `index.html`, `news.html`, `news/*.html`, etc.): `npm run rebuild:from-legacy-html` — use only when you intentionally overwrite content from those static files.
 
 ## Local development
