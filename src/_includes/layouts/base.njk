@@ -1,22 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500&display=swap" rel="stylesheet">
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>Clang Sayne | {{ title }}</title>
   <meta name="description" content="{{ description or 'Clang Sayne' }}">
-  <meta name="keywords" content="">
   <link rel="stylesheet" href="/assets/plugins/oembed/css/oembed.css">
-  <link rel="stylesheet" href="/assets/css/main.css">
+  {# Cascade: tokens → core → header-nav → layout → page_css → footer → type → extra_css #}
+  <link rel="stylesheet" href="/assets/css/tokens.css">
+  <link rel="stylesheet" href="/assets/css/modules/core.css">
+  <link rel="stylesheet" href="/assets/css/modules/header-nav.css">
+  <link rel="stylesheet" href="/assets/css/modules/layout.css">
+  {% if page_css %}
+    {% for sheet in page_css %}
+  <link rel="stylesheet" href="{{ sheet }}">
+    {% endfor %}
+  {% endif %}
+  {% if not hide_footer %}
+  <link rel="stylesheet" href="/assets/css/modules/footer.css">
+  {% endif %}
   <link rel="stylesheet" href="/assets/css/type.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  {% if extra_css %}
+    {% for sheet in extra_css %}
+  <link rel="stylesheet" href="{{ sheet }}">
+    {% endfor %}
+  {% endif %}
 </head>
-<body>
+<body{% if body_class %} class="{{ body_class }}"{% endif %}>
   {% include "partials/header.njk" %}
   <main class="main" role="main">
     {{ content | safe }}
   </main>
+  {% if not hide_footer %}
   {% include "partials/footer.njk" %}
+  {% endif %}
+  <script src="/assets/js/nav.js" defer></script>
 </body>
 </html>

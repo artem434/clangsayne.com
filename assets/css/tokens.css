@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/*
+ * tokens.css — design variables (:root).
+ * Home overrides: assets/css/home.css (body.page-home).
+ */
+
+:root {
+  /* Page shell */
+  --color-body-bg: #fff;
+  --color-body-text: #222;
+
+  /* Header */
+  --color-header-bg: #fff;
+  --color-header-border-fixed: #ddd;
+  --color-header-border-desktop: #000;
+
+  /* Primary navigation */
+  --color-nav-link: #999;
+  --color-nav-link-hover: #000;
+  --color-nav-active: #000;
+  --color-nav-mobile-item-border: #666;
+
+  /* Burger */
+  --color-burger-line: #000;
+
+  /* Social icons (header) */
+  --opacity-social-icon: 0.4;
+  --opacity-social-icon-hover: 1;
+
+  /* Main content area links */
+  --color-main-link-border: #f6e060;
+  --color-main-link-border-hover: #222;
+
+  /* Rules / dividers in .main */
+  --color-border-soft: #ddd;
+
+  /* News index (listings-teasers) */
+  --color-news-index-date: #0cf;
+}

@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+/*
+ * modules/listings-works.css — works grid + work detail images.
+ */
+
+/* Works grid
+-------------------------------------------------- */
+.works-missing-cover {
+  display: block;
+  padding: 2em 1em;
+  text-align: center;
+  background: #eee;
+  color: #333;
+}
+
+.works {
+  list-style: none;
+}
+
+.works li {
+  float: left;
+  width: 49%;
+  margin-right: 2%;
+  margin-bottom: 3em;
+  padding-top: 0;
+}
+
+.works li:nth-child(2),
+.works li:nth-child(4),
+.works li:nth-child(6),
+.works li:nth-child(8) {
+  margin-right: 0;
+}
+
+.workitem img {
+  margin-top: 40px;
+  margin-left: -100%;
+  margin-bottom: -100%;
+}
+
+@media screen and (min-width: 0em) {
+  .works li {
+    float: left;
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .workitem img {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 50em) {
+  .works li {
+    float: left;
+    width: 49%;
+    margin-right: 2%;
+  }
+
+  .works li:nth-child(2),
+  .works li:nth-child(4),
+  .works li:nth-child(6),
+  .works li:nth-child(8) {
+    margin-right: 0;
+  }
+
+  .workitem img {
+    margin-top: 100px;
+    margin-left: -115%;
+    margin-bottom: -100%;
+  }
+}

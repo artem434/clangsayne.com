@@ -4,11 +4,13 @@
   "version": "1.0.0",
   "description": "Eleventy + Decap CMS migration for the Clang Sayne static site.",
   "scripts": {
+    "prebuild": "npm run clean && npm run media:index",
     "build": "eleventy",
     "dev": "eleventy --serve --watch",
     "clean": "node scripts/clean.mjs",
     "import:content": "node scripts/import-content.mjs",
-    "prebuild": "npm run clean && npm run import:content"
+    "media:index": "node scripts/media-uploads-index.mjs",
+    "rebuild:from-legacy-html": "npm run import:content && npm run media:index && npm run build"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.5"

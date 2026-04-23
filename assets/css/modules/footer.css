@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/*
+ * modules/footer.css — site footer.
+ */
+
+/* Footer
+-------------------------------------------------- */
+.footer {
+  padding: 1em 0 6em;
+  border-top: 0.1em solid #000;
+  color: #666;
+}
+
+.footer a {
+  color: #666;
+}
+
+.copyright {
+  float: left;
+  padding-right: 0.4em;
+  font-size: 0.8em;
+}
+
+.colophon {
+  float: left;
+  font-size: 1.2em;
+}
+
+.colophon a b {
+  padding-left: 0.25em;
+  color: #ccc;
+}

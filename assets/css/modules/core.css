@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+/*
+ * modules/core.css — reset, box model, media defaults, clearfix, page shell.
+ */
+
+/* Reset
+-------------------------------------------------- */
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* Media defaults
+-------------------------------------------------- */
+img {
+  display: block;
+  width: 100%;
+}
+
+.hero_image {
+  margin-bottom: 2.5em;
+}
+
+/* Clearfix
+-------------------------------------------------- */
+.cf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Page shell
+-------------------------------------------------- */
+html {
+  overflow: -moz-scrollbars-vertical;
+  overflow-y: scroll;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 120em;
+  padding: 0 2em 2em;
+  background: var(--color-body-bg);
+  color: var(--color-body-text);
+}

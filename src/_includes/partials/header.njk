@@ -19,17 +19,17 @@
     <ul class="menu full_menu cf">
       {% for item in site.nav %}
       <li>
-        <a href="{{ item.href }}"{% if page.url == item.href %} class="active"{% endif %}>{{ item.label }}</a>
+        {% set u = page.url %}
+        {% set active = (u == item.href) or (u == item.href + '/') or (item.href == '/index.html' and (u == '/' or u == '/index.html' or u == '/index.html/')) %}
+        <a href="{{ item.href }}"{% if active %} class="active"{% endif %}>{{ item.label }}</a>
       </li>
       {% endfor %}
     </ul>
 
-    <div id="burger">
-      <div class="burgerline"></div><div class="burgerline"></div><div class="burgerline"></div>
-    </div>
+    <button type="button" id="burger" class="burger" aria-label="Open menu" aria-expanded="false">
+      <span class="burgerline"></span>
+      <span class="burgerline"></span>
+      <span class="burgerline"></span>
+    </button>
   </nav>
-
-  <script>
-    $("#burger").click(function() { $(".menu").toggleClass("menuon"); });
-  </script>
 </header>

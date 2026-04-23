@@ -2,12 +2,18 @@
 layout: layouts/base.njk
 title: Works
 permalink: "/works.html"
+page_css:
+  - /assets/css/modules/listings-works.css
 ---
 <ul class="works cf">
 {% for item in cms.works %}
   <li>
     <a href="/works/{{ item.slug }}.html">
-      <img src="/{{ item.heroImage | replace('../', '') }}" alt="{{ item.title }}">
+      {% if item.heroImage %}
+      <img src="/{{ item.heroImage }}" alt="{{ item.heroAlt or item.title }}">
+      {% else %}
+      <span class="works-missing-cover">{{ item.title }}</span>
+      {% endif %}
     </a>
   </li>
 {% endfor %}

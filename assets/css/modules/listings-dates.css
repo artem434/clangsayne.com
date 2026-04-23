@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/*
+ * modules/listings-dates.css — dates listing page.
+ */
+
+/* Dates listing
+-------------------------------------------------- */
+.dateslisting {
+  list-style: none;
+}
+
+.dateslisting li {
+  float: left;
+  width: 100%;
+  border-top: 0 solid #ccc;
+}
+
+.dateslisting p {
+  margin: 0;
+  padding-top: 8px;
+  padding-bottom: 0;
+}
+
+.date_index_item {
+  float: left;
+  width: 95%;
+  padding-right: 2% !important;
+  padding-bottom: 20px;
+}
+
+.date_index_item_title {
+  float: left;
+  width: 95%;
+  padding-right: 2% !important;
+}
+
+@media screen and (min-width: 0em) {
+  .date_index_item {
+    float: left;
+    width: 95%;
+    padding-right: 2% !important;
+  }
+
+  .date_index_item_title {
+    float: left;
+    width: 95%;
+    padding-right: 2% !important;
+  }
+}
+
+@media screen and (min-width: 50em) {
+  .date_index_item {
+    float: left;
+    width: 95%;
+    padding-right: 2% !important;
+  }
+
+  .date_index_item_title {
+    float: left;
+    width: 95%;
+    padding-right: 2% !important;
+  }
+}

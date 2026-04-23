@@ -1,12 +1,26 @@
 ---
 layout: layouts/base.njk
 title: Home
+body_class: page-home
+hide_footer: true
+extra_css:
+  - /assets/css/home.css
 ---
 <div id="home_container">
-  {{ cms.pages.home.heroHtml | safe }}
+  <div id="front_cover" class="heroine">
+    {% if cms.pages.home and cms.pages.home.heroImage %}
+      <img
+        src="/{{ cms.pages.home.heroImage }}"
+        alt="{{ (cms.pages.home.heroImageAlt or cms.pages.home.title or 'Clang Sayne') | e }}"
+        width="3000"
+        height="1688"
+        loading="eager"
+        decoding="async"
+      />
+    {% endif %}
+  </div>
 </div>
 
 <div id="playandwatch">
   {{ cms.pages.home.ctaHtml | safe }}
-</div>
 </div>

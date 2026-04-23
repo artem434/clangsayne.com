@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/*
+ * modules/nextprev.css — next/previous article navigation (layout).
+ * Link colours: assets/css/type.css (.nextprev a).
+ */
+
+/* Next/Prev nav
+-------------------------------------------------- */
+.nextprev {
+  margin-top: 6em;
+  padding: 0;
+}
+
+.nextprev a {
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+}
+
+.nextprev .prev {
+  float: left;
+}
+
+.nextprev .next {
+  float: right;
+}

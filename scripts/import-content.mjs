@@ -142,7 +142,7 @@ function parseDetailPage(fileRel, type) {
   const html = read(fileRel);
   const pageRight = extractInnerDiv(html, "page_right");
   const pageLeft = extractInnerDiv(html, "page_left");
-  const heroImage = firstImage(pageLeft || pageRight);
+  const heroImage = firstImage(pageLeft) || firstImage(pageRight);
   const figures = extractFigures(pageLeft);
   const title = decodeEntities(
     capture(pageRight || pageLeft, /<h1[^>]*>([\s\S]*?)<\/h1>/i) ||
@@ -181,6 +181,25 @@ function parseDetailPage(fileRel, type) {
   return result;
 }
 
+/** Cover thumbnails and list order from root `works.html` (used on /works.html grid). */
+function parseWorksListCovers() {
+  const html = read("works.html");
+  const ul = capture(html, /<ul class="works cf">([\s\S]*?)<\/ul>/i);
+  const map = new Map();
+  const order = [];
+  for (const li of ul.match(/<li>[\s\S]*?<\/li>/gi) || []) {
+    const href = capture(li, /<a href="works\/([^"]+)"/i);
+    const src = capture(li, /<img src="([^"]+)"/i);
+    const alt = decodeEntities(capture(li, /<img src="[^"]+" alt="([^"]*)"/i));
+    if (href) {
+      const slug = href.replace(/\.html$/i, "");
+      map.set(slug, { src: normalizePath(src || ""), alt: alt || "" });
+      order.push(slug);
+    }
+  }
+  return { map, order };
+}
+
 function parseListingPage(fileRel, type) {
   const html = read(fileRel);
   const body = extractInnerDiv(html, "main");
@@ -205,7 +224,8 @@ function parseHome() {
   const html = read("index.html");
   return {
     title: "Home",
-    heroHtml: `<div id="front_cover" class="heroine"></div>`,
+    heroImage: "content/uploads/ss_motifs_x_5-fullscreen.jpg",
+    heroImageAlt: "Clang Sayne motifs",
     ctaHtml: normalizeHtmlPaths(
       safeTrim(capture(html, /<div id="playandwatch">([\s\S]*?)<\/div>\s*<\/div>\s*$/i) || "")
     ),
@@ -268,11 +288,25 @@ function main() {
     writeJson(`src/content/news/${item.slug}.json`, item);
   });
 
+  const { map: worksCovers, order: worksListOrder } = parseWorksListCovers();
   const works = [];
   for (const file of fs.readdirSync(path.join(ROOT, "works")).filter((f) => f.endsWith(".html"))) {
     const item = parseDetailPage(path.join("works", file), "works");
+    const cover = worksCovers.get(item.slug);
+    if (cover?.src) {
+      item.heroImage = cover.src;
+      item.heroAlt = cover.alt || item.heroAlt;
+    }
     works.push(item);
   }
+  works.sort((a, b) => {
+    const ia = worksListOrder.indexOf(a.slug);
+    const ib = worksListOrder.indexOf(b.slug);
+    if (ia === -1 && ib === -1) return 0;
+    if (ia === -1) return 1;
+    if (ib === -1) return -1;
+    return ia - ib;
+  });
   works.forEach((item, index) => {
     item.order = index + 1;
     writeJson(`src/content/works/${item.slug}.json`, item);

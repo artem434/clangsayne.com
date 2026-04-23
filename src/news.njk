@@ -2,6 +2,8 @@
 layout: layouts/base.njk
 title: News
 permalink: "/news.html"
+page_css:
+  - /assets/css/modules/listings-teasers.css
 ---
 {% if cms.pages.newsIndex.bodyHtml %}
   {{ cms.pages.newsIndex.bodyHtml | safe }}
