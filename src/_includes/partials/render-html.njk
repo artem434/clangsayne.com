@@ -1,3 +1,21 @@
 {% macro block(html) %}
 {{ html | safe }}
 {% endmacro %}
+
+{% macro blocks(items) %}
+  {% if items and items.length %}
+    {% for item in items %}
+      {% if item.type == "richtext" %}
+        {% if item.label %}
+<h2>{{ item.label | e }}</h2>
+        {% endif %}
+{{ item.content | markdownToHtml | safe }}
+      {% elseif item.type == "html" %}
+        {% if item.label %}
+<h2>{{ item.label | e }}</h2>
+        {% endif %}
+{{ item.html | safe }}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endmacro %}

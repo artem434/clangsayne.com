@@ -3,10 +3,15 @@ layout: layouts/base.njk
 title: Press
 permalink: "/press.html"
 ---
+{% from "partials/render-html.njk" import blocks as render_blocks %}
 {{ cms.pages.press.heroHtml | safe }}
 <div class="single_column">
   <div class="text">
-    {{ cms.pages.press.bodyHtml | safe }}
+    {% if cms.pages.press.bodyBlocks and cms.pages.press.bodyBlocks.length %}
+      {{ render_blocks(cms.pages.press.bodyBlocks) }}
+    {% else %}
+      {{ cms.pages.press.bodyHtml | safe }}
+    {% endif %}
   </div>
   <div class="cf"></div>
 </div>

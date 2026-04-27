@@ -46,13 +46,45 @@ collections:
               default_language: "html",
               output_code_only: true,
             }
-          - {
-              label: "Body HTML",
-              name: "bodyHtml",
-              widget: "code",
-              default_language: "html",
-              output_code_only: true,
-            }
+          - label: "Body blocks"
+            name: "bodyBlocks"
+            widget: "list"
+            types:
+              - label: "Rich text block"
+                name: "richtext"
+                widget: object
+                summary: "{{fields.label}}"
+                fields:
+                  - {
+                      label: "Label",
+                      name: "label",
+                      widget: "string",
+                      required: false,
+                    }
+                  - {
+                      label: "Content",
+                      name: "content",
+                      widget: "richtext",
+                      modes: ["rich_text", "raw"],
+                    }
+              - label: "HTML block"
+                name: "html"
+                widget: object
+                summary: "{{fields.label}}"
+                fields:
+                  - {
+                      label: "Label",
+                      name: "label",
+                      widget: "string",
+                      required: false,
+                    }
+                  - {
+                      label: "HTML",
+                      name: "html",
+                      widget: "code",
+                      default_language: "html",
+                      output_code_only: true,
+                    }
 
       - name: "press"
         label: "Press"
@@ -66,10 +98,42 @@ collections:
               default_language: "html",
               output_code_only: true,
             }
-          - {
-              label: "Body HTML",
-              name: "bodyHtml",
-              widget: "code",
-              default_language: "html",
-              output_code_only: true,
-            }
+          - label: "Body blocks"
+            name: "bodyBlocks"
+            widget: "list"
+            types:
+              - label: "Rich text block"
+                name: "richtext"
+                widget: object
+                summary: "{{fields.label}}"
+                fields:
+                  - {
+                      label: "Label",
+                      name: "label",
+                      widget: "string",
+                      required: false,
+                    }
+                  - {
+                      label: "Content",
+                      name: "content",
+                      widget: "richtext",
+                      modes: ["rich_text", "raw"],
+                    }
+              - label: "HTML block"
+                name: "html"
+                widget: object
+                summary: "{{fields.label}}"
+                fields:
+                  - {
+                      label: "Label",
+                      name: "label",
+                      widget: "string",
+                      required: false,
+                    }
+                  - {
+                      label: "HTML",
+                      name: "html",
+                      widget: "code",
+                      default_language: "html",
+                      output_code_only: true,
+                    }

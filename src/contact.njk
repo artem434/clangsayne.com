@@ -3,10 +3,15 @@ layout: layouts/base.njk
 title: Contact
 permalink: "/contact.html"
 ---
+{% from "partials/render-html.njk" import blocks as render_blocks %}
 {{ cms.pages.contact.heroHtml | safe }}
 <div class="single_column">
   <div class="text">
-    {{ cms.pages.contact.bodyHtml | safe }}
+    {% if cms.pages.contact.bodyBlocks and cms.pages.contact.bodyBlocks.length %}
+      {{ render_blocks(cms.pages.contact.bodyBlocks) }}
+    {% else %}
+      {{ cms.pages.contact.bodyHtml | safe }}
+    {% endif %}
   </div>
   <div class="cf"></div>
 </div>
