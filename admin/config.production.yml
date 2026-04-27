@@ -1,5 +1,5 @@
 # Merged at build time into admin/config.yml (see scripts/sync-admin-config.mjs).
-# Only backend, auth, branding, and site URLs differ from local; collections stay in config.yml.
+# This temporary demo configuration exposes only Contact and Press.
 
 backend:
   name: git-gateway
@@ -29,3 +29,47 @@ logo_url: https://decapbridge.com/decapcms-with-bridge.svg
 
 site_url: https://myproject.artem4342232.workers.dev/
 display_url: https://myproject.artem4342232.workers.dev/
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "contact"
+        label: "Contact"
+        file: "src/content/pages/contact.json"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "Hero HTML",
+              name: "heroHtml",
+              widget: "code",
+              default_language: "html",
+              output_code_only: true,
+            }
+          - {
+              label: "Body HTML",
+              name: "bodyHtml",
+              widget: "code",
+              default_language: "html",
+              output_code_only: true,
+            }
+
+      - name: "press"
+        label: "Press"
+        file: "src/content/pages/press.json"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "Hero HTML",
+              name: "heroHtml",
+              widget: "code",
+              default_language: "html",
+              output_code_only: true,
+            }
+          - {
+              label: "Body HTML",
+              name: "bodyHtml",
+              widget: "code",
+              default_language: "html",
+              output_code_only: true,
+            }
